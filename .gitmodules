@@ -1,0 +1,12 @@
+[submodule "dmd"]
+	path = dmd
+	url = https://github.com/D-Programming-Language/dmd.git
+[submodule "druntime"]
+	path = druntime
+	url = https://github.com/D-Programming-Language/druntime.git
+[submodule "GtkD"]
+	path = GtkD
+	url = https://github.com/gtkd-developers/GtkD.git
+[submodule "phobos"]
+	path = phobos
+	url = https://github.com/D-Programming-Language/phobos.git
