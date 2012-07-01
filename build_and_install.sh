@@ -31,6 +31,9 @@ sudo cp -r std/ ${D_INSTALL_PATH}/import/
 sudo cp generated/**/libphobos2.a ${D_INSTALL_PATH}/lib/
 cd ..
 
+# set import/library paths for dmd compiler
+sudo cp ./dmd.conf ${D_INSTALL_PATH}/bin/
+
 # gtkd
 cd GtkD
 make
