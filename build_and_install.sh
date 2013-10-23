@@ -26,6 +26,7 @@ cd phobos
 make clean -f posix.mak
 make -f posix.mak
 sudo cp -r std/ ${D_INSTALL_PATH}/import/
+sudo cp -r etc/* ${D_INSTALL_PATH}/import/etc/
 sudo cp generated/**/libphobos2* ${D_INSTALL_PATH}/lib/
 cd ..
 
