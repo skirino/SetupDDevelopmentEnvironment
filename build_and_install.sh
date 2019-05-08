@@ -11,7 +11,7 @@ cd ~/code/D/SetupDDevelopmentEnvironment/
 cd dmd/
 make clean -f posix.mak
 make -f posix.mak
-sudo cp src/dmd ${D_INSTALL_PATH}/bin/
+sudo cp generated/**/dmd ${D_INSTALL_PATH}/bin/
 cd ..
 
 # druntime
